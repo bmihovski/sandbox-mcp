@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
+	"github.com/bmihovski/sandbox-mcp/internal/config"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/mount"
 	"github.com/docker/docker/client"
 	"github.com/docker/docker/pkg/stdcopy"
 	"github.com/mark3labs/mcp-go/mcp"
-	"github.com/pottekkat/sandbox-mcp/internal/config"
 )
 
 // waitForContainer waits for a container to be in running state with a specified timeout

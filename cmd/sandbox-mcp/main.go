@@ -6,9 +6,9 @@ import (
 	"log"
 
 	"github.com/mark3labs/mcp-go/server"
-	"github.com/pottekkat/sandbox-mcp/internal/appconfig"
-	"github.com/pottekkat/sandbox-mcp/internal/config"
-	"github.com/pottekkat/sandbox-mcp/internal/sandbox"
+	"github.com/bmihovski/sandbox-mcp/internal/appconfig"
+	"github.com/bmihovski/sandbox-mcp/internal/config"
+	"github.com/bmihovski/sandbox-mcp/internal/sandbox"
 )
 
 func main() {

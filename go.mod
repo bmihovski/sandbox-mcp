@@ -1,4 +1,4 @@
-module github.com/pottekkat/sandbox-mcp
+module github.com/bmihovski/sandbox-mcp
 
 go 1.23.4
 

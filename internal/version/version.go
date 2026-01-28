@@ -2,7 +2,7 @@ package version
 
 var (
 	// These values are injected during build time using -ldflags
-	Version   = "dev"
+	Version   = "main"
 	CommitSHA = "none"
 )
 

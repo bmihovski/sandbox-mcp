@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/bmihovski/sandbox-mcp/internal/config"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/moby/go-archive"
-	"github.com/pottekkat/sandbox-mcp/internal/config"
 )
 
 // BuildImage builds the Docker image of a sandbox

@@ -11,11 +11,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/pottekkat/sandbox-mcp/internal/version"
+	"github.com/bmihovski/sandbox-mcp/internal/version"
 )
 
 const (
-	githubReleaseURL = "https://github.com/pottekkat/sandbox-mcp/releases/download/%s/sandboxes.tar.gz"
+	githubReleaseURL = "https://github.com/bmihovski/sandbox-mcp/releases/download/%s/sandboxes.tar.gz"
 )
 
 // PullSandboxes downloads and extracts sandboxes from GitHub releases

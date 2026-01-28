@@ -11,11 +11,11 @@ test:
 # Build the application
 build:
 	mkdir -p dist
-	go build -ldflags="-X 'github.com/pottekkat/sandbox-mcp/internal/version.Version=$$(git describe --tags)' -X 'github.com/pottekkat/sandbox-mcp/internal/version.CommitSHA=$$(git rev-parse --short HEAD)'" -o dist/sandbox-mcp ./cmd/sandbox-mcp/main.go
+	go build -ldflags="-X 'github.com/bmihovski/sandbox-mcp/internal/version.Version=$$(git describe --tags)' -X 'github.com/bmihovski/sandbox-mcp/internal/version.CommitSHA=$$(git rev-parse --short HEAD)'" -o dist/sandbox-mcp ./cmd/sandbox-mcp/main.go
 
 # Install the application
 install:
-	go install -ldflags="-X 'github.com/pottekkat/sandbox-mcp/internal/version.Version=$$(git describe --tags)' -X 'github.com/pottekkat/sandbox-mcp/internal/version.CommitSHA=$$(git rev-parse --short HEAD)'" ./cmd/sandbox-mcp
+	go install -ldflags="-X 'github.com/bmihovski/sandbox-mcp/internal/version.Version=$$(git describe --tags)' -X 'github.com/bmihovski/sandbox-mcp/internal/version.CommitSHA=$$(git rev-parse --short HEAD)'" ./cmd/sandbox-mcp
 
 # Clean build artifacts
 clean:
